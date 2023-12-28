@@ -48,8 +48,8 @@ class sumupApi {
 		$opts = [
 			'method'  => $method,
 			'header'  => "Accept: application/json\r\n".
-						 "Content-Type: application/json\r\n".
-						 "Authorization: Bearer ".$this->_token
+				     "Content-Type: application/json\r\n".
+				     "Authorization: Bearer ".$this->_token
 		];
 		
 		if($method == 'POST' && !empty($data)) {
