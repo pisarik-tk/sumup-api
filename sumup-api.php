@@ -26,9 +26,9 @@
 class sumupApi {
 	
 	const ACCOUNT_URL 	= 'https://api.sumup.com/v0.1/me';
-	const CHECKOUTS_URL = 'https://api.sumup.com/v0.1/checkouts/%s';
+	const CHECKOUTS_URL 	= 'https://api.sumup.com/v0.1/checkouts/%s';
 	
-	const CURRENCY 		  = 'EUR';
+	const CURRENCY 		= 'EUR';
 	const DESCRIPTION 	= 'Online card payment (Ref: %s)';
 	
 	protected $_token;
